@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bienvenido</title>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <div class="scrollToTop">
+      <img src="assets/arrow-double-start.svg" alt="">
+    </div>
+    <nav>
+      <div class="nav__brand">
+        <h3>Mario</h3>
+      </div>
+      <div class="responsive__toggle">
+        <img src="./assets/sliders-v-alt.svg" alt="" />
+      </div>
+      <div class="nav__links">
+        <ul>
+          <li><a href="#perfil">Sobre mí</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#lenguajes">Lenguajes</a></li>
+          <li><a href="#tecnologias">Tecnologías</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="responsive__navbar">
+      <div class="responsive__nav__brand">
+        <h3>Mario</h3>
+      </div>
+      <div class="responsive__nav__links">
+        <ul>
+          <li><a class="nav__link" href="#perfil">Sobre mí</a></li>
+          <li><a class="nav__link" href="#proyectos">Proyectos</a></li>
+          <li><a class="nav__link" href="#lenguajes">Lenguajes</a></li>
+          <li><a class="nav__link" href="#tecnologias">Tecnologías</a></li>
+          <li><a class="nav__link" href="#skills">Habilidades</a></li>
+          <li><a class="nav__link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+    <section class="section hero dark" id="inicio">
+      <div class="hero__title__container">
+        <div class="hero__title">
+          <h1>Desarrollador web<br>Full-Stack</h1>
+        </div>
+      </div>
+      <div class="hero__service__container">
+        <div class="hero__service" id="hs1">
+          <div class="hero__service__logo">
+            <img src="./assets/monitor-mobbile.svg" alt="" />
+          </div>
+          <h3 class="hero__service__title">Front-End</h3>
+        </div>
+        <div class="hero__service" id="hs2">
+          <div class="hero__service__logo">
+            <img src="./assets/platform-managementhost-management.svg" alt="" />
+          </div>
+          <h3 class="hero__service__title">Back-End</h3>
+        </div>
+        <div class="hero__service" id="hs3">
+          <div class="hero__service__logo">
+            <img src="./assets/database.svg" alt="" />
+          </div>
+          <h3 class="hero__service__title">Bases de datos</h3>
+        </div>
+      </div>
+    </section>
+    <section class="section about semiDark" id="perfil">
+      <div class="about__content__container">
+        <h2 class="about__title">Perfil</h2>
+        <p class="about__info">
+          Programador especializado en el desarrollo de aplicaciones web, con diseño responsivo y un backend completo y escalable. Perfilado en backend y Base de datos con alta capacidad de adaptación a otros lenguajes y sus tecnologías.
+        </p>
+        <p class="about__info">
+          Título de bachillerato tecnológico, Cursando el último trimestre de FP2 de Desarrollo de Aplicaciones Web.
+        </p>
+        <div href="#" class="about__link"><a href="#contacto"><span>Contacta conmigo</span></a></div>
+      </div>
+    </section>
+    <section class="section projects dark" id="proyectos">
+      <div class="section__title__container">
+        <div class="section__title">
+          <h2>Proyectos destacados</h2>
+        </div>
+        <div class="section__info">
+          <p>
+            Estos son los main projects de mi portfolio de github y se encuentran en constante desarrollo
+          </p>
+        </div>
+      </div>
+      <div class="projects__container">
+        <div class="project" id="sv1">
+          <div class="project__logo">
+            <img src="./assets/machine-learning-02.svg" alt="" />
+          </div>
+          <h3 class="project__title">IA En la web</h3>
+          <p class="project__info">
+            Combino la web con la inteligencia artificial creando una aplicación capaz de, con solo mostrar los gestos a la WebCam, modificar el volumen del dispositivo, detectar la posición de los dedos para saber que gesto se realiza... etc. Usando librerías de Python como MediaPipe, Pandas (para el procesamiento de datos) y Flask, entre otros, junto con Socket.io, para crear una conexión concurrente entre cliente y servidor. Es un proyecto para el TFGS, el diseño aún está por terminar.
+          </p>
+        </div>
+        <div class="project" id="sv2">
+          <div class="project__logo">
+            <img src="./assets/data-accesskafka-cluster.svg" alt="" />
+          </div>
+          <h3 class="project__title">Prueba técnica React</h3>
+          <p class="project__info">
+            Aprendí a realizar dos fetch de datos con ajax, dependientes uno del otro a dos apis diferentes, junto con hooks de React como useState, useEffect, custom hook y test end to end para un código escalable.
+          </p>
+        </div>
+        <div class="project" id="sv3">
+          <div class="project__logo">
+            <img src="./assets/responsive-tablet.svg" alt="" />
+          </div>
+          <h3 class="project__title">Taller WebDesign Bootstrap 5</h3>
+          <p class="project__info">
+            Un taller online donde realicé el diseño de una aplicación web responsiva con bootstrap, simulando la posible página web de un cliente.
+          </p>
+        </div>
+        <div class="project" id="sv4">
+          <div class="project__logo">
+            <img src="./assets/tic-tac-toe.svg" alt="" />
+          </div>
+          <h3 class="project__title">Tic Tac Toe</h3>
+          <p class="project__info">
+            Puse en práctica la abstracción de componentes y lógica de la aplicación, diseño responsivo además del uso del LocalStorage para almacenar datos de la sesión del juego.
+          </p>
+        </div>
+        <div class="project" id="sv5">
+          <div class="project__logo">
+            <img src="./assets/envelope-alt.svg" alt="" />
+          </div>
+          <h3 class="project__title">ApiRest php</h3>
+          <p class="project__info">
+            Generé y consumí una api con los principios Rest, utilizando JWT para la autentificación, PDO para la conexión a la base de datos MySQL y .htaccess para mayor legibilidad de la url con el módulo REWRITE.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section languages semiDark" id="lenguajes">
+      <div class="section__title__container">
+        <!-- 
+        <div class="section__subTitle">
+          <h5>Let's talk about our figures</h5>
+        </div>
+        --> 
+        <div class="section__title">
+          <h2>Lenguajes más usados</h2>
+        </div>
+        <!--
+        <div class="section__info">
+          <p>We have grown immensely in the past 10 years.</p>
+        </div>
+        -->
+      </div>
+      <div class="languages__container">
+        <div class="language" id="ms1">
+          <div class="language__icon">
+            <img src="./assets/javascript.svg" alt="" />
+          </div>
+          <h3 class="language__number">Javascript</h3>
+        </div>
+        <div class="language" id="ms2">
+          <div class="language__icon">
+            <img src="./assets/php.svg" alt="" />
+          </div>
+          <h3 class="language__number">PHP</h3>
+        </div>
+        <div class="language" id="ms3">
+          <div class="language__icon">
+            <img src="./assets/python.svg" alt="" />
+          </div>
+          <h3 class="language__number">Python</h3>
+        </div>
+        <div class="language" id="ms4">
+          <div class="language__icon">
+            <img src="./assets/sql-database-generic.svg" alt="" />
+          </div>
+          <h3 class="language__number">SQL &#38; PL/SQL</h3>
+        </div>
+        <div class="language" id="ms5">
+          <div class="language__icon">
+            <img src="./assets/java.svg" alt="" />
+          </div>
+          <h3 class="language__number">Java</h3>
+        </div>
+        
+        <div class="language" id="ms6">
+          <div class="language__icon">
+            <img src="./assets/bash-icon.svg" alt="" />
+          </div>
+          <h3 class="language__number">Bash Script</h3>
+        </div>
+        <div class="language" id="ms7">
+          <div class="language__icon">
+            <img src="./assets/css-3.svg" alt="" />
+          </div>
+          <h3 class="language__number">CSS</h3>
+        </div>
+        
+      </div>
+    </section>
+    <section class="section technologies dark" id="tecnologias">
+      <div class="section__title__container">
+        <!--
+        <div class="section__subTitle">
+          <h5>Top technologies</h5>
+        </div>
+        -->
+        <div class="section__title">
+          <h2>Tecnologías con las que he trabajado</h2>
+        </div>
+      </div>
+      <div class="technologies__container">
+        <div class="technology" id="c1"><img src="assets/react-javascript-js-framework-facebook.svg" alt="" /></div>
+        <div class="technology" id="c2"><img src="assets/nodejs-1-logo.svg" alt="" /></div>
+        <div class="technology" id="c3"><img src="assets/flask.svg" alt="" /></div>
+        <div class="technology" id="c4"><img src="assets/mysql-logo.svg" alt="" /></div>
+        <div class="technology" id="c5"><img src="assets/git.svg" alt="" /></div>
+        <div class="technology" id="c6"><img src="assets/jquery.svg" alt="" /></div>
+        <div class="technology" id="c7"><img src="assets/sqlServer.png" alt="" /></div>
+        <div class="technology" id="c8"><img src="assets/apache.svg" alt="" /></div>
+        <div class="technology" id="c9"><img src="assets/bootstrap.svg" alt="" /></div>
+        <div class="technology" id="c10"><img src="assets/scss.svg" alt="" /></div>
+      </div>
+    </section>
+    <section class="section skills semiDark" id="skills">
+      <div class="skills__content__container">
+        <div id="hard-skills">
+          <h2 class="skills__title">Hard Skills</h2>
+          <div class="skills__info">
+            <ul>
+              <li>Clean Code y buenas prácticas</li>
+              <li>Código escalable</li>
+              <li>Inglés fluido</li>
+              <li>Adaptación a otras tecnologías y sectores tech</li>
+              <li>Bases sólidas de programación</li>
+            </ul>
+          </div>
+        </div>
+        <div id="soft-skills">
+          <h2 class="skills__title">Soft Skills</h2>
+          <div class="skills__info">
+            <ul>
+              <li>Autocrítico</li>
+              <li>Dominio del Storytelling y la comunicación</li>
+              <li>Gestión del tiempo</li>
+              <li>Aplicación de la lógica en la resolución de tareas</li>
+              <li>Obtención de recursos de fuentes / documentación oficiales</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="section dark" id="contacto">
+      <div class="footer__read">
+        <h2>Contáctame</h2>
+        <a href="https://mail.google.com/" target="_blank" ><button>Ir a Gmail</button></a>
+      </div>
+      <div class="footer__content">
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <h3>Mario Gijón</h3>
+          </div>
+          <div class="footer__copyright">
+            <p>
+              Copyright &#169; 2023 Mario Developer. All Rights Reserved.
+              <p>Localidad: Jaén, Andalucía</p>
+            </p>
+          </div>
+        </div>
+        <div class="footer__links">
+          <h3>Enlaces</h3>
+          <ul>
+            <li><a href="https://github.com/MarioGijonDev">Github</a></li>
+          </ul>
+        </div>
+        <div class="footer__links">
+          <h3>Formas de contacto</h3>
+          <ul>
+            <li>Email: gijonlietormariodev@gmail.com</li>
+            <li>Teléfono: 640 17 16 44</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/animation.js"></script>
+  </body>
+</html>
